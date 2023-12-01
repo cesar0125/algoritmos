@@ -1,0 +1,48 @@
+/*agregar TIPOGRAFIA*/
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/fondo.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 90%;
+    max-width: 1350px;
+    margin: 8% auto;
+    border: 1px solid rgb(55, 223, 55);;
+    background: rgba(0, 0, 0, 0.384);
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+}
+
+h1{
+    color: rgb(55, 223, 55);
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: mediumorchid;
+}
+
+button{
+    background: transparent;
+    border: 2px solid rgb(55, 223, 55);;
+    padding: 12px 30px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+    background: black;
+    color: #9c64db;
+    border: 2px solid white;
+    border-radius: 8px;
+}
