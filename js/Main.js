@@ -1,7 +1,7 @@
 
 
 function Saludo() {
-    alert("BIENVENIDO USUARIO -SIN PALABRAS")
+    alert("Bienvenido estimado usuario")
 }
 
 function suma(){
